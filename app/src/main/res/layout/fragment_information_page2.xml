@@ -12,7 +12,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:id="@+id/imageView"
-        android:src="@drawable/trainingseminar"
+        android:src="@drawable/mn12tl"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="November 25, 2014"
+        android:text="December 08, 2014"
         android:id="@+id/textView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -32,20 +32,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Med. Aud. 3PM "
+        android:text="UST Grounds"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="    Google Tech Talk is about the latest OS and how it can affect your perfomance as a programmer. You'll get a free basic OS of your choice if you join here."
+        android:text="The PASKUHAN yearly celebration is here again! Come join the fun! Wear RED/ YELLOW / BLACK and GOLD for a better festive vibes."
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -1,6 +1,5 @@
 package com.example.teddy.es_tify;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -11,54 +10,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
-import android.widget.TextView;
 
 import com.example.teddy.es_tify.R;
 
-public class EnterPage extends ActionBarActivity {
-
-    public void refresh(View view) {
-        Intent intent = new Intent(this, EnterPage.class);
-        startActivity(intent);
-
-    }
-
-    public void information(View view) {
-        Intent intent = new Intent(this, InformationPage.class);
-        startActivity(intent);
-
-    }
-    public void information2(View view) {
-        Intent intent = new Intent(this, information_page2.class);
-        startActivity(intent);
-
-    }
-    public void information3(View view) {
-        Intent intent = new Intent(this, information_page3.class);
-        startActivity(intent);
-
-    }
+public class information_page2 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enter_page);
+        setContentView(R.layout.activity_information_page2);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-
     }
-
-
-
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.enter_page, menu);
+        getMenuInflater().inflate(R.menu.information_page2, menu);
         return true;
     }
 
@@ -84,8 +56,8 @@ public class EnterPage extends ActionBarActivity {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_enter_page, container, false);
+                                 Bundle savedInstanceState) {
+            View rootView = inflater.inflate(R.layout.fragment_information_page2, container, false);
             return rootView;
         }
     }
