@@ -28,16 +28,6 @@ public class EnterPage extends ActionBarActivity {
         startActivity(intent);
 
     }
-    public void information2(View view) {
-        Intent intent = new Intent(this, information_page2.class);
-        startActivity(intent);
-
-    }
-    public void information3(View view) {
-        Intent intent = new Intent(this, information_page3.class);
-        startActivity(intent);
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

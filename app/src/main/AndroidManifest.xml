@@ -52,14 +52,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.teddy.es_tify.EnterPage" />
         </activity>
-        <activity
-            android:name=".information_page2"
-            android:label="@string/title_activity_information_page2" >
-        </activity>
-        <activity
-            android:name=".information_page3"
-            android:label="@string/title_activity_information_page3" >
-        </activity>
     </application>
 
 </manifest>
